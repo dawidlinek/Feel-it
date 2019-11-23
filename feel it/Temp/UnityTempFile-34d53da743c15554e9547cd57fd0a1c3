@@ -15,8 +15,6 @@
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
-/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
-/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
@@ -36,6 +34,7 @@
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
 /reference:"C:\Program Files\Unity\Hub\Editor\2018.4.12f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
@@ -221,13 +220,10 @@
 /define:UNITY_2018_4_12
 /define:UNITY_2018_4
 /define:UNITY_2018
-/define:PLATFORM_ARCH_64
-/define:UNITY_64
 /define:UNITY_INCLUDE_TESTS
 /define:ENABLE_AUDIO
 /define:ENABLE_CACHING
 /define:ENABLE_CLOTH
-/define:ENABLE_DUCK_TYPING
 /define:ENABLE_MICROPHONE
 /define:ENABLE_MULTIPLE_DISPLAYS
 /define:ENABLE_PHYSICS
@@ -266,32 +262,36 @@
 /define:INCLUDE_GI
 /define:ENABLE_MONO_BDWGC
 /define:PLATFORM_SUPPORTS_MONO
-/define:RENDER_SOFTWARE_CURSOR
 /define:INCLUDE_PUBNUB
 /define:ENABLE_VIDEO
 /define:ENABLE_CUSTOM_RENDER_TEXTURE
 /define:ENABLE_LOCALIZATION
-/define:PLATFORM_STANDALONE_WIN
-/define:PLATFORM_STANDALONE
-/define:UNITY_STANDALONE_WIN
-/define:UNITY_STANDALONE
+/define:PLATFORM_ANDROID
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
 /define:ENABLE_SUBSTANCE
-/define:ENABLE_RUNTIME_GI
-/define:ENABLE_MOVIES
+/define:ENABLE_EGL
 /define:ENABLE_NETWORK
+/define:ENABLE_RUNTIME_GI
 /define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
 /define:ENABLE_UNITYWEBREQUEST
 /define:ENABLE_CLOUD_SERVICES
 /define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_EVENT_QUEUE
 /define:ENABLE_CLOUD_SERVICES_PURCHASING
 /define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
-/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
-/define:ENABLE_EVENT_QUEUE
-/define:ENABLE_CLUSTER_SYNC
-/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:PLATFORM_SUPPORTS_ADS_ID
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
 /define:ENABLE_VR
 /define:ENABLE_AR
-/define:ENABLE_WEBSOCKET_HOST
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:UNITY_ASTC_ONLY_DECOMPRESS
+/define:ENABLE_UNITYADS_RUNTIME
+/define:UNITY_UNITYADS_API
 /define:ENABLE_MONO
 /define:NET_STANDARD_2_0
 /define:ENABLE_PROFILER
