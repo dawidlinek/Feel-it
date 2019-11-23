@@ -9,23 +9,37 @@
     <title>Feel It</title>
 
     <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
-
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
+    <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
 <body>
 
 
-        <video autoplay muted loop id="topvideo">
-            <source src="topvideo1.mp4" type="video/mp4">
-          </video>
-        
+    <video autoplay muted loop id="topvideo">
+        <source src="topvideo1.mp4" type="video/mp4">
+    </video>
+
     <div class="content" id="contentBig">
         <div class="topText" id="topTextBig">
             Feel it.
         </div>
 
+        <div class="topText" id="secondText">
+            <span style="color: rgb(28, 28, 161); ">They must.</span> <span style="color: rgb(167, 7, 7);">You can.</span>
+        </div>
+
+        <div></div>
+
     </div>
-    
+    <script src="backgroundAnimation.js"></script>
+
+    <script>
+        document.querySelector('topvideo').playbackRate = 1.5;
+
+    </script>
 </body>
 
 </html>
