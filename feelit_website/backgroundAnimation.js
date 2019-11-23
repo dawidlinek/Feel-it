@@ -1,5 +1,5 @@
 
-
+/* Copyright Jakub Chełpa 2019 all rights reserved for author */
 var lFollowX = 0,
     lFollowY = 0,
     x = 0,
@@ -10,7 +10,7 @@ function moveBackground() {
   x += (lFollowX - x) * friction;
   y += (lFollowY - y) * friction;
   
-  translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+  translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.2)';
 
   $('#topvideo').css({
     '-webit-transform': translate,
