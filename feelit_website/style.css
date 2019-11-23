@@ -9,32 +9,45 @@ body {
 }
 
 .content{
-    z-index: 0;
     position: fixed;
     width: 100%;
     height: 80vw;
 }
 
 #topvideo {
-    z-index: 2;
+    
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index: -1;
+    background-size: cover;
+    translate: scale(1.1);
   }
 
 #topTextBig{
-    margin: 0 auto;
+    -webkit-text-stroke-width: .1vw;
+    -webkit-text-stroke-color: rgb(17, 9, 9);
+    margin-top: 20vw;
 }
 .topText{
+    background-color: rgba(0, 0, 0, 0.411);
     position: fixed;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 6vw;
     width:100vw;
-    height: 25vw;
-    margin: 0 auto;
-    padding: 10px;
+    height: vw;
+    padding: 1vw;
     font-family: 'Odibee Sans', cursive;
+    
+}
+
+#secondText{
+  
+    -webkit-text-stroke-width: .1vw;
+    -webkit-text-stroke-color: rgb(17, 9, 9);
+    margin-top: 30vw;
+    font-size: 4vw;
 }
